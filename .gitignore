@@ -28,3 +28,4 @@ cookies.txt
 *_results.csv
 all_portal_protocols*.csv
 detected_protocols.csv
+api-op-withsecrets.py
