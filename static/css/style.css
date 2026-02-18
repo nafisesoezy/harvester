@@ -1,0 +1,115 @@
+body{
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #fafafa;
+}
+
+.topbar{
+  background: white;
+  border-bottom: 1px solid #e6e6e6;
+  padding: 16px 24px;
+}
+
+.brand{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.title h2{
+  margin: 0;
+}
+
+.subtitle{
+  margin: 6px 0 0 0;
+  color: #666;
+  font-size: 14px;
+}
+
+.logos{
+  display:flex;
+  align-items:center;
+  gap: 12px;
+}
+
+.logo{
+  height: 50px;
+  width: auto;
+  object-fit: contain;
+}
+
+.container{
+  max-width: 980px;
+  margin: 24px auto;
+  padding: 0 24px 40px 24px;
+}
+
+.card{
+  background: white;
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 8px;
+}
+
+label{
+  display:block;
+  margin-top: 12px;
+  font-weight: bold;
+}
+
+input, select{
+  width: 100%;
+  max-width: 520px;
+  padding: 10px;
+  margin-top: 6px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background: white;
+}
+
+button{
+  margin-top: 18px;
+  padding: 10px 16px;
+  cursor: pointer;
+  border: 1px solid #333;
+  border-radius: 6px;
+  background: #fff;
+}
+
+button.primary{
+  background: #111;
+  color: white;
+  border-color: #111;
+}
+
+.section{
+  border: 1px solid #eee;
+  padding: 16px;
+  margin-top: 18px;
+  border-radius: 8px;
+  background: #fcfcfc;
+}
+
+.alert{
+  padding: 15px;
+  margin-top: 20px;
+  border-radius: 8px;
+}
+
+.alert-success{
+  background-color: #e6ffed;
+  border: 1px solid #4CAF50;
+}
+
+pre{
+  background: #f5f5f5;
+  padding: 15px;
+  white-space: pre-wrap;
+  max-height: 400px;
+  overflow-y: auto;
+  border-radius: 8px;
+  border: 1px solid #eee;
+}

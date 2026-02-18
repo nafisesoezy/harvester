@@ -1,0 +1,30 @@
+# Environment variables
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual env
+.venv/
+
+# IDE
+.idea/
+.vscode/
+.DS_Store
+
+# Generated data
+jsonld/
+jsonld_filtered/
+jsonld_records.zip
+jsonld_records_filtered.zip
+
+# Temp files
+*.log
+cookies.txt
+
+# CSV outputs
+*_results.csv
+all_portal_protocols*.csv
+detected_protocols.csv
