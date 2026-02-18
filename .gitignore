@@ -29,3 +29,7 @@ cookies.txt
 all_portal_protocols*.csv
 detected_protocols.csv
 api-op-withsecrets.py
+
+# Local-only dev files
+api-dev.py
+api-op.py
